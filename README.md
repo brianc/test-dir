@@ -32,7 +32,7 @@ I haven't found a test framework -- nodeunit, vows, expresso -- to fit my needs.
 ~/project-dir $ echo "require('test-dir')" > test/index.js
 ```
 
-__view the test/ directory of this project for more examples___
+__view the test/ directory of this project for more examples__
 
 ## license
 [Apache 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
