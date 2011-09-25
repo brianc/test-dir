@@ -4,7 +4,7 @@ Require directories full of files for testing.
 
 ## reasoning
 
-I haven't found a test framework -- nodeunit, vows, expresso -- to fit my needs.  I like test libraries -- assert, should, tobi.  I want each test file to be a self-contained, 'runnable' test suite.
+I haven't found a test framework -- nodeunit, vows, expresso -- to fit my needs.  I like test libraries -- assert, should, tobi.  I want each test file to be a self-contained, 'runnable' test suite.  I used to use GNU Make for this, but it's not installed by default on windows.
 
 #### Given:
 
@@ -23,7 +23,6 @@ I haven't found a test framework -- nodeunit, vows, expresso -- to fit my needs.
 ~/project-dir $ node test/some-tests.js
 ~/project-dir $ node test/some-other-tests.js
 ~/project-dir $ node test
-
 ```
 
 #### Solution:
