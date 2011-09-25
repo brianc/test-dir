@@ -1,1 +1,1 @@
-require(__dirname).testSubDirectory('simple', 'test\ntest\ntest\n');
+require(__dirname).testSubDirectory('node ' + __dirname + '/simple', '...');

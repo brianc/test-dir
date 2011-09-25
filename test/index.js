@@ -1,7 +1,6 @@
 require(__dirname + '/../lib');
 module.exports = {
-  testSubDirectory : function(name, expected) {
-    var cmd = 'node ' + __dirname +  '/' + name;
+  testSubDirectory : function(cmd, expected) {
     process.stdout.write(cmd + ': ');
     var child = require('child_process').exec(cmd, function(err, stdout, stderr) {
       if(err) throw err;
