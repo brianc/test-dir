@@ -1,5 +1,5 @@
 {
-  "author": "Brian M. Carlson <brian.m.carlson@gmail.com> (http://enginode.com)",
+  "author": "Brian M. Carlson <brian.m.carlson@gmail.com>",
   "name": "test-dir",
   "description": "run directories of tests using 'require'",
   "version": "0.0.1",
