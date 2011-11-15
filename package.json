@@ -2,13 +2,13 @@
   "author": "Brian M. Carlson <brian.m.carlson@gmail.com>",
   "name": "test-dir",
   "description": "run directories of tests using 'require'",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "git://github.com/brianc/test-dir.git"
   },
   "engines": {
-    "node": "~v0.4.12"
+    "node": "*"
   },
   "dependencies": {},
   "devDependencies": {},
